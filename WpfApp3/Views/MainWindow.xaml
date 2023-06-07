@@ -79,8 +79,9 @@
 
         <Button Command="{Binding ShowAllCommand}"   Background="DarkViolet"  Style="{DynamicResource ButtonStyle1}" Height="46" Width="204" Canvas.Left="78" Canvas.Top="200" FontSize="20" Content="Show All" HorizontalAlignment="Left" VerticalAlignment="Top">
 
+
         </Button>
-        <Button Command="{Binding InsertCommand,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"   Background="LawnGreen"  Style="{DynamicResource ButtonStyle1}" Height="40" Width="160" Canvas.Left="100" Canvas.Top="252" FontSize="20" Content="Insert" HorizontalAlignment="Center" VerticalAlignment="Top" RenderTransformOrigin="0.537,1.012">
+        <Button Command="{Binding InsertCommand,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"   Background="LawnGreen"  Style="{DynamicResource ButtonStyle1}" Height="40" Width="160" Canvas.Left="100" Canvas.Top="252" FontSize="20" Content="Insert" HorizontalAlignment="Center" VerticalAlignment="Top" RenderTransformOrigin="0.537,1.012" Click="Button_Click">
 
         </Button>
 

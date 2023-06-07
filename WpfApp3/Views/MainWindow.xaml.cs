@@ -29,5 +29,7 @@ namespace WpfApp3
             this.DataContext = vm;
 
         }
+
+        
     }
 }
